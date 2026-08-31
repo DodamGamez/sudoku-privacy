@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>계정 및 데이터 삭제 요청 — 스도쿠</title>
+  <style>
+    :root {
+      --bg: #F4F3FB;
+      --paper: #ffffff;
+      --ink: #1C1C1C;
+      --muted: #5A5678;
+      --line: #E6E4F2;
+      --accent: #8B86F4;
+      --accent-soft: #EEEDFB;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.7;
+    }
+
+    body {
+      padding: 28px 18px 48px;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px 32px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+    }
+
+    .meta {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      font-size: 17px;
+      font-weight: 800;
+      color: #4F4AA8;
+    }
+
+    h2:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    p { margin: 0 0 10px; }
+
+    ol, ul {
+      margin: 0 0 8px;
+      padding-left: 1.2em;
+    }
+
+    li { margin: 4px 0; }
+
+    .note {
+      background: var(--accent-soft);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .placeholder {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <article class="wrap">
+    <h1>계정 및 데이터 삭제 요청</h1>
+    <p class="meta">앱 이름: 스도쿠 · 운영자: DODAM ORBIT</p>
+
+    <p>
+      DODAM ORBIT의 스도쿠 앱 사용자는
+      앱 내 회원탈퇴 기능 또는 아래 안내된 방법을 통해
+      계정과 연결된 데이터 삭제를 요청할 수 있습니다.
+    </p>
+
+    <h2>앱에서 직접 삭제하기</h2>
+    <ol>
+      <li>스도쿠 앱을 실행합니다.</li>
+      <li>설정으로 이동합니다.</li>
+      <li>회원탈퇴를 선택합니다.</li>
+      <li>안내에 따라 계정 삭제를 완료합니다.</li>
+    </ol>
+    <p>
+      회원탈퇴가 완료되면
+      해당 계정과 연결된 개인정보 및 게임 데이터가 삭제됩니다.
+    </p>
+
+    <h2>앱을 사용할 수 없는 경우</h2>
+    <p>
+      앱에 접속할 수 없는 경우, 개발자에게 이메일로 삭제 요청을 보낼 수 있습니다.
+    </p>
+    <p>
+      개발자 이메일:
+      <span class="placeholder">dodam.orbit@gmail.com</span>
+    </p>
+    <p>삭제 요청 시 아래 정보를 함께 보내 주세요.</p>
+    <ul>
+      <li>앱 이름: 스도쿠</li>
+      <li>삭제를 요청하는 Google 계정 이메일</li>
+      <li>요청 내용: 계정 및 데이터 삭제 요청</li>
+    </ul>
+    <p>
+      비밀번호, 인증번호 등 민감한 정보는 절대 보내지 마세요.
+    </p>
+
+    <h2>삭제되는 데이터</h2>
+    <p>요청이 처리되면 다음과 같은 데이터가 삭제될 수 있습니다.</p>
+    <ul>
+      <li>사용자 계정 정보</li>
+      <li>사용자 UID</li>
+      <li>닉네임</li>
+      <li>프로필 정보</li>
+      <li>게임 점수</li>
+      <li>플레이 기록</li>
+      <li>난이도별 클리어 기록</li>
+      <li>랭킹 관련 데이터</li>
+      <li>오늘의 스도쿠 기록</li>
+      <li>실시간 대전 기록</li>
+      <li>친구 목록</li>
+      <li>친구 요청 정보</li>
+      <li>메시지 및 기타 계정 연동 데이터</li>
+    </ul>
+    <p>
+      법령 또는 보안상의 이유로 일정 기간 보관해야 하는 정보가 있다면,
+      해당 정보는 필요한 기간 동안 보관될 수 있습니다.
+    </p>
+
+    <h2>처리 기간</h2>
+    <p>
+      외부 이메일을 통한 삭제 요청은 요청 확인 후 가능한 한 신속하게 처리합니다.
+    </p>
+
+    <p class="note">
+      <a href="https://dodamgamez.github.io/sudoku-privacy/">개인정보처리방침</a>으로 돌아가기
+    </p>
+  </article>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인정보처리방침 — 스도쿠</title>
+  <style>
+    :root {
+      --bg: #F4F3FB;
+      --paper: #ffffff;
+      --ink: #1C1C1C;
+      --muted: #5A5678;
+      --line: #E6E4F2;
+      --accent: #8B86F4;
+      --accent-soft: #EEEDFB;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.7;
+    }
+
+    body {
+      padding: 28px 18px 48px;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px 32px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+    }
+
+    .meta {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      font-size: 17px;
+      font-weight: 800;
+      color: #4F4AA8;
+    }
+
+    h2:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    p { margin: 0 0 10px; }
+
+    ul {
+      margin: 0 0 8px;
+      padding-left: 1.2em;
+    }
+
+    li { margin: 4px 0; }
+
+    .note {
+      background: var(--accent-soft);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a[hidden],
+    .is-empty {
+      display: none;
+    }
+
+    .placeholder {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <article class="wrap">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">앱 이름: 스도쿠 · 운영자: DODAM ORBIT · 시행일: 2026년 9월 1일</p>
+
+    <p>
+      DODAM ORBIT(이하 “개발자”)는 스도쿠 앱 서비스 제공을 위해 아래와 같이 개인정보를 처리합니다.
+      본 방침은 앱 이용자에게 적용됩니다.
+    </p>
+
+    <h2>1. 수집 및 처리하는 정보</h2>
+    <p>앱은 서비스 제공에 필요한 범위에서 다음 정보를 수집·처리할 수 있습니다.</p>
+    <ul>
+      <li>Google 로그인 시 이메일 주소</li>
+      <li>사용자 UID</li>
+      <li>Google 계정 이름</li>
+      <li>프로필 이미지</li>
+      <li>닉네임</li>
+      <li>게임 점수 및 플레이 기록</li>
+      <li>난이도별 클리어 기록</li>
+      <li>랭킹 정보</li>
+      <li>오늘의 스도쿠 기록</li>
+      <li>실시간 대전 기록</li>
+      <li>친구 목록</li>
+      <li>친구 요청 정보</li>
+      <li>사용자가 작성한 메시지</li>
+    </ul>
+
+    <h2>2. 개인정보 이용 목적</h2>
+    <p>수집한 정보는 다음 목적에 사용합니다.</p>
+    <ul>
+      <li>로그인 및 계정 관리</li>
+      <li>게임 데이터 저장 및 복구</li>
+      <li>랭킹 및 통계 제공</li>
+      <li>친구 및 메시지 기능</li>
+      <li>오늘의 스도쿠</li>
+      <li>실시간 대전</li>
+      <li>오류 확인 및 서비스 개선</li>
+      <li>부정 이용 방지</li>
+    </ul>
+
+    <h2>3. 외부 서비스</h2>
+    <p>현재 앱은 서비스 제공을 위해 다음 Google Firebase 서비스를 사용할 수 있습니다.</p>
+    <ul>
+      <li>Firebase Authentication</li>
+      <li>Cloud Firestore</li>
+    </ul>
+
+    <h2>4. 제3자 제공</h2>
+    <p>
+      개발자는 사용자의 개인정보를 임의로 판매하지 않습니다.
+      다만 Firebase 등 서비스 제공업체가 로그인, 데이터 저장, 동기화와 같은 서비스 제공 과정에서
+      필요한 정보를 처리할 수 있습니다.
+    </p>
+
+    <h2>5. 개인정보 보관 기간</h2>
+    <p>
+      서비스 이용 기간 동안 필요한 정보를 보관할 수 있습니다.
+      계정 삭제 시, 법령 또는 보안상 보관 의무가 없는 데이터는 삭제합니다.
+    </p>
+
+    <h2>6. 계정 및 개인정보 삭제</h2>
+    <p>
+      사용자는 앱 설정의 회원탈퇴 기능을 통해 계정을 삭제할 수 있습니다.
+      회원탈퇴 시 계정과 연결된 개인정보 및 게임 데이터를 삭제합니다.
+    </p>
+    <p id="account-deletion-request-block">
+      <a id="account-deletion-request-link" hidden>외부 계정 삭제 요청 페이지</a>
+      <span id="account-deletion-request-label">외부 계정 삭제 요청 페이지</span>
+    </p>
+
+    <h2>7. 개인정보 보호</h2>
+    <p>
+      앱은 Firebase 및 HTTPS 등 보안 수단을 사용하여 개인정보를 보호할 수 있습니다.
+      다만 인터넷을 통한 전송 과정에서 모든 위험을 완전히 배제할 수는 없습니다.
+    </p>
+
+    <h2>8. 아동 개인정보</h2>
+    <p>
+      개발자는 관련 법령 및 Google Play 정책을 준수하며,
+      아동의 개인정보를 고의로 수집하지 않도록 서비스를 운영합니다.
+    </p>
+
+    <h2>9. 개인정보처리방침 변경</h2>
+    <p>
+      앱 기능 또는 정책이 바뀌면 본 방침이 변경될 수 있습니다.
+      변경 사항은 이 페이지에 시행일과 함께 게시합니다.
+    </p>
+
+    <h2>10. 문의</h2>
+    <p>개발자명: DODAM ORBIT</p>
+    <p>앱 이름: 스도쿠</p>
+    <p>
+      개발자 이메일:
+      <a id="developer-email-link" hidden></a>
+      <span id="developer-email-label" class="placeholder">dodam.orbit@gmail.com</span>
+    </p>
+
+    <p class="note">본 방침의 시행일은 2026년 9월 1일입니다.</p>
+  </article>
+
+  <script>
+    const ACCOUNT_DELETION_REQUEST_URL =
+      "https://dodamgamez.github.io/sudoku-privacy/delete-account.html";
+    const DEVELOPER_CONTACT_EMAIL = "dodam.orbit@gmail.com";
+
+    (function applyPrivacyLinks() {
+      const deletionUrl = String(ACCOUNT_DELETION_REQUEST_URL || "").trim();
+      const deletionLink = document.getElementById("account-deletion-request-link");
+      const deletionLabel = document.getElementById("account-deletion-request-label");
+
+      if (deletionUrl && deletionLink && deletionLabel) {
+        deletionLink.href = deletionUrl;
+        deletionLink.hidden = false;
+        deletionLabel.hidden = true;
+      }
+
+      const email = String(DEVELOPER_CONTACT_EMAIL || "").trim();
+      const emailLink = document.getElementById("developer-email-link");
+      const emailLabel = document.getElementById("developer-email-label");
+
+      if (email && emailLink && emailLabel) {
+        emailLink.href = "mailto:" + email;
+        emailLink.textContent = email;
+        emailLink.hidden = false;
+        emailLabel.hidden = true;
+      }
+    })();
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인정보처리방침 — 스도쿠</title>
+  <style>
+    :root {
+      --bg: #F4F3FB;
+      --paper: #ffffff;
+      --ink: #1C1C1C;
+      --muted: #5A5678;
+      --line: #E6E4F2;
+      --accent: #8B86F4;
+      --accent-soft: #EEEDFB;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.7;
+    }
+
+    body {
+      padding: 28px 18px 48px;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 22px 32px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--ink);
+    }
+
+    .meta {
+      margin: 0 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      font-size: 17px;
+      font-weight: 800;
+      color: #4F4AA8;
+    }
+
+    h2:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--ink);
+    }
+
+    p { margin: 0 0 10px; }
+
+    ul {
+      margin: 0 0 8px;
+      padding-left: 1.2em;
+    }
+
+    li { margin: 4px 0; }
+
+    .note {
+      background: var(--accent-soft);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    a[hidden],
+    .is-empty {
+      display: none;
+    }
+
+    .placeholder {
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <article class="wrap">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">앱 이름: 스도쿠 · 운영자: DODAM ORBIT · 시행일: 2026년 9월 1일</p>
+
+    <p>
+      DODAM ORBIT(이하 “개발자”)는 스도쿠 앱 서비스 제공을 위해 아래와 같이 개인정보를 처리합니다.
+      본 방침은 앱 이용자에게 적용됩니다.
+    </p>
+
+    <h2>1. 수집 및 처리하는 정보</h2>
+    <p>앱은 서비스 제공에 필요한 범위에서 다음 정보를 수집·처리할 수 있습니다.</p>
+    <ul>
+      <li>Google 로그인 시 이메일 주소</li>
+      <li>사용자 UID</li>
+      <li>Google 계정 이름</li>
+      <li>프로필 이미지</li>
+      <li>닉네임</li>
+      <li>게임 점수 및 플레이 기록</li>
+      <li>난이도별 클리어 기록</li>
+      <li>랭킹 정보</li>
+      <li>오늘의 스도쿠 기록</li>
+      <li>실시간 대전 기록</li>
+      <li>친구 목록</li>
+      <li>친구 요청 정보</li>
+      <li>사용자가 작성한 메시지</li>
+    </ul>
+
+    <h2>2. 개인정보 이용 목적</h2>
+    <p>수집한 정보는 다음 목적에 사용합니다.</p>
+    <ul>
+      <li>로그인 및 계정 관리</li>
+      <li>게임 데이터 저장 및 복구</li>
+      <li>랭킹 및 통계 제공</li>
+      <li>친구 및 메시지 기능</li>
+      <li>오늘의 스도쿠</li>
+      <li>실시간 대전</li>
+      <li>오류 확인 및 서비스 개선</li>
+      <li>부정 이용 방지</li>
+    </ul>
+
+    <h2>3. 외부 서비스</h2>
+    <p>현재 앱은 서비스 제공을 위해 다음 Google Firebase 서비스를 사용할 수 있습니다.</p>
+    <ul>
+      <li>Firebase Authentication</li>
+      <li>Cloud Firestore</li>
+    </ul>
+
+    <h2>4. 제3자 제공</h2>
+    <p>
+      개발자는 사용자의 개인정보를 임의로 판매하지 않습니다.
+      다만 Firebase 등 서비스 제공업체가 로그인, 데이터 저장, 동기화와 같은 서비스 제공 과정에서
+      필요한 정보를 처리할 수 있습니다.
+    </p>
+
+    <h2>5. 개인정보 보관 기간</h2>
+    <p>
+      서비스 이용 기간 동안 필요한 정보를 보관할 수 있습니다.
+      계정 삭제 시, 법령 또는 보안상 보관 의무가 없는 데이터는 삭제합니다.
+    </p>
+
+    <h2>6. 계정 및 개인정보 삭제</h2>
+    <p>
+      사용자는 앱 설정의 회원탈퇴 기능을 통해 계정을 삭제할 수 있습니다.
+      회원탈퇴 시 계정과 연결된 개인정보 및 게임 데이터를 삭제합니다.
+    </p>
+    <p id="account-deletion-request-block">
+      <a id="account-deletion-request-link" hidden>외부 계정 삭제 요청 페이지</a>
+      <span id="account-deletion-request-label">외부 계정 삭제 요청 페이지</span>
+    </p>
+
+    <h2>7. 개인정보 보호</h2>
+    <p>
+      앱은 Firebase 및 HTTPS 등 보안 수단을 사용하여 개인정보를 보호할 수 있습니다.
+      다만 인터넷을 통한 전송 과정에서 모든 위험을 완전히 배제할 수는 없습니다.
+    </p>
+
+    <h2>8. 아동 개인정보</h2>
+    <p>
+      개발자는 관련 법령 및 Google Play 정책을 준수하며,
+      아동의 개인정보를 고의로 수집하지 않도록 서비스를 운영합니다.
+    </p>
+
+    <h2>9. 개인정보처리방침 변경</h2>
+    <p>
+      앱 기능 또는 정책이 바뀌면 본 방침이 변경될 수 있습니다.
+      변경 사항은 이 페이지에 시행일과 함께 게시합니다.
+    </p>
+
+    <h2>10. 문의</h2>
+    <p>개발자명: DODAM ORBIT</p>
+    <p>앱 이름: 스도쿠</p>
+    <p>
+      개발자 이메일:
+      <a id="developer-email-link" hidden></a>
+      <span id="developer-email-label" class="placeholder">dodam.orbit@gmail.com</span>
+    </p>
+
+    <p class="note">본 방침의 시행일은 2026년 9월 1일입니다.</p>
+  </article>
+
+  <script>
+    const ACCOUNT_DELETION_REQUEST_URL =
+      "https://dodamgamez.github.io/sudoku-privacy/delete-account.html";
+    const DEVELOPER_CONTACT_EMAIL = "dodam.orbit@gmail.com";
+
+    (function applyPrivacyLinks() {
+      const deletionUrl = String(ACCOUNT_DELETION_REQUEST_URL || "").trim();
+      const deletionLink = document.getElementById("account-deletion-request-link");
+      const deletionLabel = document.getElementById("account-deletion-request-label");
+
+      if (deletionUrl && deletionLink && deletionLabel) {
+        deletionLink.href = deletionUrl;
+        deletionLink.hidden = false;
+        deletionLabel.hidden = true;
+      }
+
+      const email = String(DEVELOPER_CONTACT_EMAIL || "").trim();
+      const emailLink = document.getElementById("developer-email-link");
+      const emailLabel = document.getElementById("developer-email-label");
+
+      if (email && emailLink && emailLabel) {
+        emailLink.href = "mailto:" + email;
+        emailLink.textContent = email;
+        emailLink.hidden = false;
+        emailLabel.hidden = true;
+      }
+    })();
+  </script>
+</body>
+</html>
